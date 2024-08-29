@@ -1,0 +1,48 @@
+COMANDOS GIT
+
+-----
+-Clonar Repositório Remoto na máquina local
+git clone https://github.com/tawamark/estruturadedados24.git
+
+
+-----
+-Ver Status do repositório local
+git status
+
+-----
+-Adicionar arquivos untracked a serem confirmados
+git add .
+
+-----
+-Criar ponto de marcação no projeto/branch
+git commit -m "Meu primeiro commit"
+
+-----
+-Verificar repositórios remotos configurados no repo local
+git remote -v
+
+-----
+-Enviar commits pendentes para o repo remoto
+git push origin main
+
+-----------------------------------------------------------------------
+
+COMANDOS .NET
+
+----
+-Listar versões instaladas
+dotnet --list-sdks
+
+----
+-Criar novo projeto console
+dotnet new console -n "Aula01"
+
+----
+-Executar programa
+dotnet run
+
+----
+-Executar programa
+dotnet watch run
+
+------------------------------------------------------------------------
