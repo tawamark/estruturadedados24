@@ -48,6 +48,8 @@ if(!contemNome)
 //Caso o valor não exista na lista, retorna -1
 int indiceDoValor = arrList.IndexOf("Thauan");
 if(indiceDoValor >= 0)
-{}Console.WriteLine($"Thauan está em [{indiceDoValor}]");
+{
+    Console.WriteLine($"Thauan está em [{indiceDoValor}]");
+}
 else
     Console.WriteLine("É, realmente não tem.");
