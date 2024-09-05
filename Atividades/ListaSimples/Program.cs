@@ -53,3 +53,9 @@ if(indiceDoValor >= 0)
 }
 else
     Console.WriteLine("É, realmente não tem.");
+
+//Remover itens da Lista
+arrList.Remove("Thauan"); // remove no valor
+arrList.RemoveAt(4); // remove no indice
+arrList.RemoveRange(0,2); // o primeiro parâmetro é o indice e o segundo quantas casas após o indice
+ 
