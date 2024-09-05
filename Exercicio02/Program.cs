@@ -1,20 +1,20 @@
 ﻿int[] pares = new int[50];
 int[] impares = new int[50];
 
-int contpar = 0;
-int contimpar = 0;
+int countpar = 0;
+int countimpar = 0;
 
 for (int i = 1; i <= 100; i++)
 {
     if (i % 2 == 0)
     {
-        pares[contpar] = i;
-        contpar++;
+        pares[countpar] = i;
+        countpar++;
     }
     else
     {
-        impares[contimpar] = i;
-        contimpar++;
+        impares[countimpar] = i;
+        countimpar++;
     }
 }
 
