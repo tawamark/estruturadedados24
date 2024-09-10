@@ -1,0 +1,58 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+
+public class Person
+{
+    public string name;
+    public int age;
+    public int level = 1;
+}
+
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine("Digite o nome do seu personagem:");
+        string name = Console.ReadLine();
+        Console.WriteLine($"Olá, {name}!");
+    
+    
+        Console.WriteLine("Digite sua idade:");
+        int age = Convert.ToInt32(Console.ReadLine());
+    
+        Console.WriteLine("------------------------------------");
+        int level = 1;
+        Console.WriteLine("Suas informações");
+        Console.WriteLine($"Nome: {name}");
+        Console.WriteLine($"Idade: {age}");
+        Console.WriteLine($"Level: {level}");
+
+        Console.WriteLine("------------------------------------");
+        Console.WriteLine("Vocês está pronto para começar?");
+        Console.WriteLine("1 - Sim");
+        Console.WriteLine("2 - Não");
+        string resposta = Console.ReadLine();
+
+        switch (resposta)
+        {
+            case "1":
+            Console.WriteLine("ótimo, vamos começar");
+            StartGame();
+            break;
+            case "2":
+            Console.WriteLine("que pena, esperamos para quando estiver pronto");
+            break;
+            default:
+            Console.WriteLine("Resposta inválida. Por favor responda com '1' ou '2' ");
+            break;
+        }
+
+    }
+    static void StartGame()
+    {
+        
+    }
+}
